@@ -1,2 +1,2 @@
-# Salon---Glimmer
-Salon Appointmemnt System for salon Glimmer
+# Salon-Glimmer
+Salon Appointment System for salon Glimmer

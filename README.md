@@ -2,7 +2,7 @@
 
 A modern salon appointment management system built with the **MERN stack**, **Vite**, and **Tailwind CSS**.
 
-![Salon Logo](https://via.placeholder.com/150x150?text=Salon+Logo)
+![Salon Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fpin%2Fbeauty-salon-logo-vector-design-images-beauty-logo-beauty-creative-beauty-png-image-for-free-download--681450987386364213%2F&psig=AOvVaw23pKpSSyRKkQd7ldia5cgS&ust=1761208816460000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCODmsKC0t5ADFQAAAAAdAAAAABAL)
 
 ## ✨ Features
 

@@ -42,7 +42,7 @@ Before running this project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```sh
-git clone [https://github.com/ShakyaGurusinghe/Salon-Glimmer.git](https://github.com/ShakyaGurusinghe/Salon-Glimmer.git)
+git clone https://github.com/ShakyaGurusinghe/Salon-Glimmer.git
 cd Salon-Glimmer 
 ```
 

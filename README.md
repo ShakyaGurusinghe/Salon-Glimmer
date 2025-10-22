@@ -35,3 +35,12 @@ Before running this project, make sure you have the following installed:
 ```bash
 git clone https://github.com/ShakyaGurusinghe/Salon-Glimmer.git
 cd Salon-Glimmer
+
+##
+
+### 2. Run the Backend
+
+```bash
+cd backend
+npm install
+npm run dev

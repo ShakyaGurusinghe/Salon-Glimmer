@@ -36,44 +36,47 @@ Before running this project, ensure you have the following installed:
 
 ---
 
-Markdown
 
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repository
 
-```bash
+```sh
 git clone [https://github.com/ShakyaGurusinghe/Salon-Glimmer.git](https://github.com/ShakyaGurusinghe/Salon-Glimmer.git)
-cd Salon-Glimmer
-2. Run the Backend
-Navigate to the backend directory, install dependencies, and start the server. You should run this command in a separate terminal or tab.
+cd Salon-Glimmer 
+```
 
-Bash
 
+### 2. Run the Backend
+#### Navigate to the backend directory, install dependencies, and start the server. You should run this command in a separate terminal or tab.
+
+```sh
 cd backend
 npm install
 npm run dev
-3. Run the Frontend
-Open another new terminal or tab, navigate to the frontend directory, install dependencies, and start the development server.
+```
 
-Bash
+### 3. Run the Frontend
+#### Open another new terminal or tab, navigate to the frontend directory, install dependencies, and start the development server.
 
+```sh
 cd frontend
 npm install
 npm run dev
-After running both commands, your application will be available at:
+```
 
-Frontend: http://localhost:5173
+### After running both commands, your application will be available at:
 
-Backend API: http://localhost:5000
+#### Frontend: http://localhost:5173
 
-📄 Environment Configuration
-Create a file named .env in the backend directory and add the following configuration:
+#### Backend API: http://localhost:5001
 
-Code snippet
+### 📄 Environment Configuration
+#### Create a file named .env in the backend directory and add the following configuration:
 
-NODE_ENV=development
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/salon-glimmer
+```sh
+PORT=5001
+MONGODB_URI=your_mongo_uri
 JWT_SECRET=your_jwt_secret_here
 JWT_EXPIRE=30d
+```

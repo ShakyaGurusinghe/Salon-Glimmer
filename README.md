@@ -36,6 +36,8 @@ Before running this project, ensure you have the following installed:
 
 ---
 
+Markdown
+
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repository
@@ -43,12 +45,35 @@ Before running this project, ensure you have the following installed:
 ```bash
 git clone [https://github.com/ShakyaGurusinghe/Salon-Glimmer.git](https://github.com/ShakyaGurusinghe/Salon-Glimmer.git)
 cd Salon-Glimmer
+2. Run the Backend
+Navigate to the backend directory, install dependencies, and start the server. You should run this command in a separate terminal or tab.
 
-### 2. Run the Backend
+Bash
 
-Navigate to the `backend` directory, install dependencies, and start the server. You should run this command in a **separate terminal or tab**.
-
-```bash
 cd backend
 npm install
 npm run dev
+3. Run the Frontend
+Open another new terminal or tab, navigate to the frontend directory, install dependencies, and start the development server.
+
+Bash
+
+cd frontend
+npm install
+npm run dev
+After running both commands, your application will be available at:
+
+Frontend: http://localhost:5173
+
+Backend API: http://localhost:5000
+
+📄 Environment Configuration
+Create a file named .env in the backend directory and add the following configuration:
+
+Code snippet
+
+NODE_ENV=development
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/salon-glimmer
+JWT_SECRET=your_jwt_secret_here
+JWT_EXPIRE=30d

@@ -1,13 +1,19 @@
 import React from 'react'
 import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar'
 
 function App() {
   
 
   return (
- <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-     <h1>Hello, Welcome to Salon Glimmer</h1>
-    </div>
+    
+      <Routes>
+        
+          <Route path="/" element={<NavBar />} />
+      </Routes>
+      
+    
   )
 }
 

@@ -2,7 +2,7 @@
 
 A modern salon appointment management system built with the **MERN stack**, **Vite**, and **Tailwind CSS**.
 
-![Salon Logo](./frontend//public/vite.svg)
+![Salon Logo](./frontend//public/logo.jpeg)
 
 ## ✨ Features
 
